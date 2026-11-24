@@ -1,0 +1,69 @@
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #23332a;
+  background: #f7f7f1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #1e3026;
+  --muted: #6e7c72;
+  --green: #19694e;
+  --green-dark: #13563f;
+  --orange: #e99751;
+  --line: #e6e7dd;
+  --surface: #fff;
+  --error: #b64836;
+  --display: "Segoe UI", "Arial", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 9% 22%, rgb(235 239 221 / 65%), transparent 29rem),
+    #f7f7f1;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+button,
+input,
+textarea {
+  font-size: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #c9e2d2;
+  color: #173c2c;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
